@@ -41,7 +41,7 @@ let package = Package(
     .iOS(.v14), .tvOS(.v14)
   ],
   products: [
-    .library(name: "CalendarControl", targets: ["CalendarComtrol"])
+    .library(name: "CalendarControl", targets: ["CalendarControl"])
   ],
   targets: [
     .binaryTarget(name: "CalendarControl", path: "./Sources/CalendarControl.xcframework")
